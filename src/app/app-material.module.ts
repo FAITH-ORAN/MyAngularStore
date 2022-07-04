@@ -9,6 +9,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatCardModule} from '@angular/material/card';
 import {  MatButtonModule} from '@angular/material/button';
 import {  MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 
 
@@ -24,7 +25,8 @@ import {  MatProgressSpinnerModule } from '@angular/material/progress-spinner';
       MatToolbarModule,
       MatCardModule,
       MatButtonModule,
-      MatProgressSpinnerModule 
+      MatProgressSpinnerModule,
+      MatGridListModule
     ],
     exports: [ MatFormFieldModule,
         MatTabsModule,
@@ -34,7 +36,8 @@ import {  MatProgressSpinnerModule } from '@angular/material/progress-spinner';
         MatToolbarModule,
         MatCardModule,
         MatButtonModule,
-        MatProgressSpinnerModule 
+        MatProgressSpinnerModule,
+        MatGridListModule
     ] 
   })
   export class MaterialModule { }

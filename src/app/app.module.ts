@@ -7,6 +7,7 @@ import { AboutComponent } from './composants/about/about.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import {MaterialModule} from './app-material.module';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import {MaterialModule} from './app-material.module';
     BrowserAnimationsModule,
     HttpClientModule,
     AppRoutingModule,
-    MaterialModule
+    MaterialModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
